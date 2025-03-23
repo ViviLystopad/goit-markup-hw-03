@@ -66,7 +66,6 @@ img {
     display: flex;
     margin-left: auto;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-menu-link {
@@ -75,6 +74,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -226,7 +226,13 @@ img {
 .team-list-item {
     flex-basis: calc((100% - 72px) / 4);
     background-color: #FFFFFF
+border-radius: 0px 0px 4px 4px;
+}
 
+.team-card {
+    padding: 32px 0;
+    text-align: center;
+    margin-bottom: 8px
 }
 
 .team-img {}
