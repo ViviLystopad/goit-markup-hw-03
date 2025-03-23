@@ -39,6 +39,7 @@ img {
     display: flex;
     justify-content: space-between;
     width: 1158px;
+    padding: 0 15px;
 }
 
 .header-logo {
@@ -58,12 +59,14 @@ img {
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .header-menu-list {
     display: flex;
     margin-left: auto;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-menu-link {
@@ -111,7 +114,7 @@ img {
 
 .hero {
     background: #2e2f42;
-    padding: 120px 0;c
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -141,6 +144,7 @@ img {
     cursor: pointer;
     border: none;
     min-width: 169px;
+    height: 56px;
     display: block;
     margin: 0 auto;
 }
@@ -153,11 +157,21 @@ img {
 /* ----------HERO---------- */
 /* --------SECOND-TITLE------- */
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+
 .section-second {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 120px 0;
 }
 
 .section-second-list {
